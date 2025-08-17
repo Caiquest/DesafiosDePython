@@ -1,0 +1,2 @@
+v = int(input('Digite um valor e iremos calcular o dobro, o triplo e a raiz quadrada para voce: '))
+print(f'O dobro do valor de {v} é {v*2} \nO triplo de {v} é {v*3} \nE a raiz quadrada de {v} é {v**(1/2):.3}')

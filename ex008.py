@@ -1,0 +1,7 @@
+a = float(input('Digite um valor em metros: '))
+print(f'A medida de {a}m em decimetros é {a*10:.0f}dm ')
+print(f'A medida de {a}m em centimetros é {a*100:.0f}cm')
+print(f'A medida de {a}m em milimetros é {a*1000:.0f}mm')
+print(f'A medida de {a}m em decametros é {a/10}dam')
+print(f'A medida de {a}m em hectometros é {a/100}hm')
+print(f'A medida de {a}m em quilometro é {a/1000}km')

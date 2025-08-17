@@ -1,0 +1,1 @@
+print(input('Em que cidade voce nasceu ?: ').strip().lower().startswith('santo'))

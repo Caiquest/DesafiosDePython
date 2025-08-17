@@ -1,0 +1,5 @@
+pr = int(input('Digite o primeiro valor: '))
+seg = int(input('Digite o segundo valor: '))
+ter = int(input('Digite o terceiro valor: '))
+numeros = (pr, seg, ter)
+print(f'O maior número é {max(numeros)} e o menor é o número {min(numeros)}')

@@ -1,0 +1,5 @@
+preco = float(input('Qual o preço do produto? R$'))
+desconto = (preco*0.05)
+a = (preco - desconto)
+print(f'O valor do desconto com 5% é de R${desconto}')
+print(f'O valor do produto final é R${a}')
