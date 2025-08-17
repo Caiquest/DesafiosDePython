@@ -12,8 +12,7 @@ print('''BEM-VINDO AO JOGO
 Escolha uma das opcões para jogar:
 [ PEDRA ] 
 [ PAPEL ] 
-[ TESOURA ] 
-''')
+[ TESOURA ] ''')
 jogada = str(input('Qual a sua jogada?')).strip().upper()
 if jogada != 'PEDRA' and jogada != 'PAPEL' and jogada != 'TESOURA':
     print('JOGADA INVÁLIDA, POR FAVOR TENTE NOVAMENTE.')
